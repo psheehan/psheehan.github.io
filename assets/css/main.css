@@ -1270,6 +1270,7 @@
 
 			.contact {
 				padding: 0.75em;
+                background-size: 100px 100px, cover, auto 100%;
 			}
 
 		}

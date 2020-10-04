@@ -1013,7 +1013,6 @@
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				auto 100%;
 		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1230,7 +1229,6 @@
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				100% 100%;
 		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;

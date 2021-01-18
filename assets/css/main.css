@@ -1013,6 +1013,7 @@
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				auto 100%;
 		background-position: top left,		center center,		bottom center;
+        background-attachment: fixed, fixed, fixed;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1052,6 +1053,7 @@
 
 			.wrapper {
 				padding: 0.75em;
+                background-attachment: initial, initial, initial;
 			}
 
 		}
@@ -1229,6 +1231,7 @@
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				100% 100%;
 		background-position: top left,		center center,		bottom center;
+        background-attachment: fixed, fixed, fixed;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1269,6 +1272,7 @@
 			.contact {
 				padding: 0.75em;
                 background-size: 100px 100px, cover, auto 100%;
+                background-attachment: initial, initial, initial;
 			}
 
 		}

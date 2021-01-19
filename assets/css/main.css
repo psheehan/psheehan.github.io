@@ -1053,7 +1053,6 @@
 
 			.wrapper {
 				padding: 0.75em;
-                background-attachment: initial, initial, initial;
 			}
 
 		}
@@ -1272,7 +1271,6 @@
 			.contact {
 				padding: 0.75em;
                 background-size: 100px 100px, cover, auto 100%;
-                background-attachment: initial, initial, initial;
 			}
 
 		}

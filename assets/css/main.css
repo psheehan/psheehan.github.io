@@ -1291,3 +1291,7 @@
 		body.is-ie .contact {
 			height: 50%;
 		}
+
+        body.is-mobile .contact {
+            background-attachment: scroll, scroll, scroll;
+        }

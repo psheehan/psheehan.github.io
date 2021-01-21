@@ -1013,7 +1013,6 @@
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
-        background-attachment: fixed, fixed, fixed;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1056,6 +1055,20 @@
 			}
 
 		}
+
+        @supports ( -webkit-touch-callout : none) {
+            
+            .wrapper {
+                background-attachment:scroll, scroll, scroll;
+            }
+        }
+
+        @supports not ( -webkit-touch-callout : none) {
+
+            .wrapper {
+                background-attachment: fixed, fixed, fixed;
+            }
+        }
 
 		body.is-ie .wrapper {
 			height: 100%;
